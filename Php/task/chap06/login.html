@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 作业：编写一个表单，其中包含用户名、密码输入框及登陆按钮，当用户名为“zhangsan”，
+    密码为“123456”时则可以正常登陆并进入首页(index.php)，并在首页显示用户名，否则给出相应的弹窗错误提示。
+    login.html
+ -->
+
+<body>
+    <form action="./test.php" method="post" name="from1">
+        <table width=400 border="1" cellspacing="0" cellpadding="5px">
+            <tr>
+                <td>用户名:</td>
+                <td>
+                    <input type="text" name="userName" maxlength="10" size="30" placeholder="请输入用户名">
+                </td>
+            </tr>
+            <tr>
+                <td>密&ensp;&ensp;码:</td>
+                <td>
+                    <input type="password" name="pwd" maxlength="10" size="30" placeholder="请输入密码">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" name="sub" value="登陆">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+
+</html>
